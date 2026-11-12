@@ -1,0 +1,7 @@
+Deduplicated (0% Overlap) ML Thermal Regression Metrics (Model-Generated RC Reference)
+
+RC Architecture,Model,Poly Degree,Train Samples,Test Samples,Train-Test Overlap,Train MAE (C),Train RMSE (C),Train R2,Test MAE (C),Test RMSE (C),Test Max Error (C),Test R2,Train Time (s),Inference (ms/sample),Reference Data Source
+Random 3D RC,Linear Ridge Regressor (d=1),1,1113,279,0,2.1125,2.8805,0.998643,2.0185,2.694,9.9062,0.998772,0.00652,0.00019,Simulated 3D RC ThermalModel (Deduplicated Held-Out Split)
+Random 3D RC,Polynomial Ridge Regressor (d=2),2,1113,279,0,1.5113,2.038,0.999321,1.566,2.1283,8.2673,0.999234,0.00776,0.001,Simulated 3D RC ThermalModel (Deduplicated Held-Out Split)
+Fixed 3D RC,Linear Ridge Regressor (d=1),1,1113,279,0,1.4534,1.9206,0.999197,1.4844,1.95,9.9038,0.999201,0.00073,0.00017,Simulated 3D RC ThermalModel (Deduplicated Held-Out Split)
+Fixed 3D RC,Polynomial Ridge Regressor (d=2),2,1113,279,0,0.8905,1.1466,0.999714,0.8955,1.1334,3.5219,0.99973,0.00118,0.00063,Simulated 3D RC ThermalModel (Deduplicated Held-Out Split)

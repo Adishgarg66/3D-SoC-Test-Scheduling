@@ -1,0 +1,19 @@
+========================================================================
+        2D PLANAR SOC TEST SCHEDULING BENCHMARK RESULTS SUMMARY        
+========================================================================
+
+ITC'02 d695 2D Benchmark (10 Cores, Pmax=45.89W, Wmax=16):
+  - Greedy 2D Baseline            : Makespan=322,500 cycles | Peak P=22.20W | TAM=16/16 | Status=Safe
+  - Artificial Bee Colony (ABC 2D): Makespan=322,500 cycles | Peak P=22.20W | TAM=16/16 | Status=Safe
+  - Bat 2D Algorithm              : Makespan=320,500 cycles | Peak P=21.00W | TAM=16/16 | Status=Safe
+  - Firefly 2D Algorithm          : Makespan=323,000 cycles | Peak P=22.20W | TAM=16/16 | Status=Safe
+  - Modified ACO (MACO 2D)        : Makespan=320,500 cycles | Peak P=22.20W | TAM=16/16 | Status=Safe
+  - H-MACO-FA Hybrid (2D)         : Makespan=320,500 cycles | Peak P=21.00W | TAM=16/16 | Status=Safe
+
+ITC'02 p22810 2D Benchmark (30 Cores, Pmax=94.05W, Wmax=32):
+  - Greedy 2D Baseline            : Makespan=420,649 cycles | Peak P=47.80W | TAM=32/32 | Status=Safe
+  - Artificial Bee Colony (ABC 2D): Makespan=416,098 cycles | Peak P=55.45W | TAM=32/32 | Status=Safe
+  - Bat 2D Algorithm              : Makespan=415,298 cycles | Peak P=45.10W | TAM=32/32 | Status=Safe
+  - Firefly 2D Algorithm          : Makespan=418,948 cycles | Peak P=43.05W | TAM=32/32 | Status=Safe
+  - Modified ACO (MACO 2D)        : Makespan=426,748 cycles | Peak P=44.40W | TAM=32/32 | Status=Safe
+  - H-MACO-FA Hybrid (2D)         : Makespan=415,500 cycles | Peak P=49.15W | TAM=32/32 | Status=Safe

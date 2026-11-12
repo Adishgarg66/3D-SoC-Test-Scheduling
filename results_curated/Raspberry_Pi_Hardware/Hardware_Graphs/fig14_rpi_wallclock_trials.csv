@@ -1,0 +1,7 @@
+Mode,Benchmark,Algorithm,Trials,Is Physical,Board Model,GPIO Backend,Makespan (CC),Total Task Cycles,Scaled Makespan (s),Expected Sleep (s),Mean Wall Clock (s),Std Wall Clock (s),Mean Roundtrip (s),Mean Jitter (s),Mean Overhead %,GPIO Events
+2d,d695,Artificial Bee Colony (ABC 2D),3,True,Raspberry Pi 4 Model B Rev 1.4,RPi.GPIO,320500,469500,0.9615,1.4085,1.41613,0.0002,1.47602,0.00124,0.54,156
+2d,p22810,Bat 2D Algorithm,3,True,Raspberry Pi 4 Model B Rev 1.4,RPi.GPIO,415198,1237796,1.24559,3.71339,3.73803,0.00026,3.80575,0.0035,0.663,540
+fixed3d,d695,Artificial Bee Colony (ABC 3D),3,True,Raspberry Pi 4 Model B Rev 1.4,RPi.GPIO,320500,469500,0.9615,1.4085,1.41606,0.00015,1.48349,0.00123,0.54,156
+fixed3d,p22810,Bat Algorithm (Bat 3D),3,True,Raspberry Pi 4 Model B Rev 1.4,RPi.GPIO,434398,1237796,1.30319,3.71339,3.73799,8e-05,3.78951,0.00348,0.66,540
+random3d,d695,Artificial Bee Colony (ABC 3D),3,True,Raspberry Pi 4 Model B Rev 1.4,RPi.GPIO,320500,469500,0.9615,1.4085,1.41592,4e-05,1.48273,0.00118,0.527,156
+random3d,p22810,Modified ACO (MACO 3D),3,True,Raspberry Pi 4 Model B Rev 1.4,RPi.GPIO,416648,1237796,1.24994,3.71339,3.73831,0.00023,3.77992,0.00363,0.67,540

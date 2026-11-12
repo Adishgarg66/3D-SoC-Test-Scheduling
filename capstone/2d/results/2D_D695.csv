@@ -1,0 +1,8 @@
+Live Simulation Run: 2D - D695
+
+Benchmark,Algorithm,Makespan (Cycles),Peak Power (W),Peak Tj (°C),Max TSV/TAM,Runtime (s),Constraint Status
+d695,Greedy 2D Baseline,322500,22.2,0.0,16,0.0005,Safe
+d695,Artificial Bee Colony (ABC 2D),320500,22.2,0.0,16,0.0495,Safe
+d695,Bat 2D Algorithm,320500,22.2,0.0,16,0.0258,Safe
+d695,Firefly 2D Algorithm,332000,22.2,0.0,16,0.0036,Safe
+d695,Modified ACO (MACO 2D),320500,22.2,0.0,16,0.0424,Safe

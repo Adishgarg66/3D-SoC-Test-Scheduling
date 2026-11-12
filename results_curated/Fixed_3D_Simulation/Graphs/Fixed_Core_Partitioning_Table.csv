@@ -1,0 +1,6 @@
+"Fixed 3D Layer Core Distribution Table (Roy & Giri, 2023 Table 2 Mapping)"
+
+Layer ID,Layer Description,p22810 Core Module Assignments,d695 Core Module Assignments
+Layer 1 (z=0),Bottom Die (Substrate/Heatsink),"Cores 1, 2, 3, 5, 6, 8, 9, 15, 21, 26, 27 (11 cores)","Cores 1, 2, 7, 10 (4 cores)"
+Layer 2 (z=1),Middle Die Layer,"Cores 4, 7, 10, 11, 17, 18, 22, 23, 25, 28 (10 cores)","Cores 3, 4, 8 (3 cores)"
+Layer 3 (z=2),Top Die Layer,"Cores 12, 13, 14, 16, 19, 20, 24, 29, 30 (9 cores)","Cores 5, 6, 9 (3 cores)"

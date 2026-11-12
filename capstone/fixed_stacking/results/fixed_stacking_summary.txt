@@ -1,0 +1,19 @@
+========================================================================
+       STRUCTURED FIXED 3D STACKING BENCHMARK EVALUATION RESULTS        
+========================================================================
+
+ITC'02 d695 Benchmark (10 Cores, 3 Layers, Pmax=45.89W, Wmax=16, TSVmax=16):
+  - Greedy 3D Baseline            : Makespan=322,500 cycles | Peak P=22.20W | Peak Tj=48.5°C | TSV=16/16 | Status=Safe
+  - Artificial Bee Colony (ABC 3D): Makespan=320,500 cycles | Peak P=22.20W | Peak Tj=48.5°C | TSV=16/16 | Status=Safe
+  - Bat 3D Algorithm              : Makespan=328,000 cycles | Peak P=19.70W | Peak Tj=39.8°C | TSV=16/16 | Status=Safe
+  - Firefly 3D Algorithm          : Makespan=323,000 cycles | Peak P=21.10W | Peak Tj=41.4°C | TSV=16/16 | Status=Safe
+  - Modified ACO (MACO 3D)        : Makespan=322,500 cycles | Peak P=22.20W | Peak Tj=48.5°C | TSV=16/16 | Status=Safe
+  - H-MACO-FA Hybrid (3D)         : Makespan=322,500 cycles | Peak P=22.20W | Peak Tj=48.5°C | TSV=16/16 | Status=Safe
+
+ITC'02 p22810 Benchmark (30 Cores, 3 Layers, Pmax=94.05W, Wmax=32, TSVmax=24):
+  - Greedy 3D Baseline            : Makespan=449,348 cycles | Peak P=41.70W | Peak Tj=69.5°C | TSV=24/24 | Status=Safe
+  - Artificial Bee Colony (ABC 3D): Makespan=439,949 cycles | Peak P=45.30W | Peak Tj=66.3°C | TSV=24/24 | Status=Safe
+  - Bat 3D Algorithm              : Makespan=436,898 cycles | Peak P=42.60W | Peak Tj=57.7°C | TSV=24/24 | Status=Safe
+  - Firefly 3D Algorithm          : Makespan=434,298 cycles | Peak P=43.50W | Peak Tj=68.0°C | TSV=24/24 | Status=Safe
+  - Modified ACO (MACO 3D)        : Makespan=437,197 cycles | Peak P=40.35W | Peak Tj=68.9°C | TSV=24/24 | Status=Safe
+  - H-MACO-FA Hybrid (3D)         : Makespan=435,598 cycles | Peak P=47.80W | Peak Tj=73.9°C | TSV=24/24 | Status=Safe

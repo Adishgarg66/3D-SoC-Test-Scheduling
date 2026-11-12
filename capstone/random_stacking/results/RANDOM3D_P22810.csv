@@ -1,0 +1,9 @@
+Live Simulation Run: RANDOM3D - P22810
+
+Benchmark,Algorithm,Makespan (Cycles),Peak Power (W),Peak Tj (°C),Max TSV/TAM,Runtime (s),Constraint Status
+p22810,Greedy 3D Baseline,451000,46.65,94.4,24,0.0137,Safe
+p22810,Artificial Bee Colony (ABC 3D),425799,38.55,92.8,24,1.0646,Safe
+p22810,Bat 3D Algorithm,423899,45.3,94.1,24,1.1653,Safe
+p22810,Firefly 3D Algorithm,417998,39.45,94.4,16,9.3021,Safe
+p22810,Modified ACO (MACO 3D),417998,41.7,89.2,16,3.5079,Safe
+p22810,Firefly 3D Algorithm + Scaled,417998,39.45,94.4,16,9.3041,Safe

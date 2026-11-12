@@ -1,0 +1,7 @@
+Mode,Benchmark,Algorithm,Mean Evals,Mean CPU Runtime (s),Mean Makespan (CC)
+fixed3d,p22810,Greedy,1.0,0.01228,449348.0
+fixed3d,p22810,ABC,300.0,1.45197,439002.5
+fixed3d,p22810,Bat,300.0,1.47526,438883.4
+fixed3d,p22810,Firefly,300.0,1.48172,437783.5
+fixed3d,p22810,MACO,300.0,1.57002,436663.3
+fixed3d,p22810,H-MACO-FA,300.0,1.33271,436173.2

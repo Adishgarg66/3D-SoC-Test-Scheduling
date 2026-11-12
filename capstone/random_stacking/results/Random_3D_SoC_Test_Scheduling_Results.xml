@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="Header">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1F4E79" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="Title">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="13" ss:Color="#1F4E79" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="DataCell">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="10"/>
+  </Style>
+  <Style ss:ID="SafeStatus">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="10" ss:Color="#006100" ss:Bold="1"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Multi-Seed Statistical Results">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">Dynamic Random 3D Multi-Seed Statistical Performance (6 Algorithms, N=10 Seeds, Fair Budget)</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mode</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Benchmark</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Algorithm</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">N Seeds</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Best (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Worst (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Median (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Std Dev (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Reduction vs Greedy (%)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Evals</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean CPU Runtime (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Worst-Case Power (W)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Worst-Case Peak Tj (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Max TSV/TAM Used</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Constraint Status</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Greedy</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0068</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.87</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">ABC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">323000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">321500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1290.99</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.31</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.18685</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.87</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Bat</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">330000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">324250.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">323000.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3553.17</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">-0.543</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.19257</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.87</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Firefly</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">323000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">321450.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1234.91</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.326</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.19344</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.87</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">MACO</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320900.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">843.27</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.496</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.24589</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.87</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">H-MACO-FA</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">323000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320750.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">790.57</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.543</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.21473</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.87</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Greedy</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">451000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">451000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">451000.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">451000.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.01472</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46.65</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">ABC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">418499</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">428849</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">423228.7</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">423724.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3738.95</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6.158</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.52441</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46.65</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.82</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Bat</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417249</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">431948</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">422133.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">419073.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">5284.72</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6.401</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.43948</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.94</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Firefly</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">418149</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">425398</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">423303.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">423823.5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2237.12</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6.141</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.49913</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46.65</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.82</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">MACO</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">416648</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">420598</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">418248.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417898.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1353.31</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7.262</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.49787</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46.65</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">93.82</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">H-MACO-FA</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">416648</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">420598</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">418023.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417697.5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1136.31</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7.312</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.41248</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.75</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.11</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="3D HIL Replay Summary">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">Random 3D Physical Raspberry Pi 4 Model B Rev 1.4 HIL Replay Summary</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mode</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Benchmark</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Algorithm</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Trials</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Is Physical</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Board Model</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">GPIO Backend</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Makespan (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Total Task Cycles</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Scaled Makespan (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Expected Cumulative Sleep (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Wall Clock (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Std Wall Clock (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Client Roundtrip (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Jitter (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Overhead vs Sleep (%)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">GPIO Events</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Artificial Bee Colony (ABC 3D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Raspberry Pi 4 Model B Rev 1.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">RPi.GPIO</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">469500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.9615</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.4085</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.41592</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4e-05</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.48273</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00118</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.527</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">156</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">random3d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Modified ACO (MACO 3D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Raspberry Pi 4 Model B Rev 1.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">RPi.GPIO</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">416648</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1237796</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.24994</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.71339</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.73831</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00023</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.77992</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00363</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.67</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">540</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="ML Thermal Regression">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">Deduplicated (0% Overlap) ML Thermal Regression Metrics (Model-Generated RC Reference)</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">RC Architecture</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Model</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Poly Degree</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Train Samples</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Test Samples</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Train-Test Overlap</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Train MAE (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Train RMSE (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Train R2</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Test MAE (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Test RMSE (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Test Max Error (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Test R2</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Train Time (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Inference (ms/sample)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Reference Data Source</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Random 3D RC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Linear Ridge Regressor (d=1)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1113</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">279</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2.1125</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2.8805</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.998643</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2.0185</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2.694</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">9.9062</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.998772</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00652</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00019</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Simulated 3D RC ThermalModel (Deduplicated Held-Out Split)</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Random 3D RC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Polynomial Ridge Regressor (d=2)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1113</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">279</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.5113</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2.038</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.999321</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.566</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2.1283</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8.2673</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.999234</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00776</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.001</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Simulated 3D RC ThermalModel (Deduplicated Held-Out Split)</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Fixed 3D RC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Linear Ridge Regressor (d=1)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1113</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">279</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.4534</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.9206</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.999197</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.4844</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.95</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">9.9038</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.999201</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00073</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00017</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Simulated 3D RC ThermalModel (Deduplicated Held-Out Split)</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Fixed 3D RC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Polynomial Ridge Regressor (d=2)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1113</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">279</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.8905</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.1466</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.999714</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.8955</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.1334</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.5219</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.99973</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00118</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00063</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Simulated 3D RC ThermalModel (Deduplicated Held-Out Split)</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="Unseen Solver Trajectories">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">Independent Unseen Solver Schedule Trajectory ML Validation (seeds=512,777,1024)</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">RC Architecture</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Validation Set</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Model</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Steps Evaluated</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">MAE (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">RMSE (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Max Error (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">R2</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Reference Data Source</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Random 3D RC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">All Trajectory Steps (seeds=512,777,1024)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Polynomial Ridge Regressor (d=2)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.9459</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.223</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.6545</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.991259</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Independent 3D RC Schedule Trajectory Simulation</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Random 3D RC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Strictly Unseen vs Train Set</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Polynomial Ridge Regressor (d=2)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.0709</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.3571</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.6545</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.987863</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Independent 3D RC Schedule Trajectory Simulation (0% overlap with training set)</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Fixed 3D RC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">All Trajectory Steps (seeds=512,777,1024)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Polynomial Ridge Regressor (d=2)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.7684</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.9459</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2.7452</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.990542</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Independent 3D RC Schedule Trajectory Simulation</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Fixed 3D RC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Strictly Unseen vs Train Set</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Polynomial Ridge Regressor (d=2)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.8506</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.0421</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2.7452</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.988331</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Independent 3D RC Schedule Trajectory Simulation (0% overlap with training set)</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

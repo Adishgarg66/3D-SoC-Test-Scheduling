@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="Header">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1F4E79" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="Title">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="13" ss:Color="#1F4E79" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="DataCell">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="10"/>
+  </Style>
+  <Style ss:ID="SafeStatus">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="10" ss:Color="#006100" ss:Bold="1"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="IEEE 1500 Wrapper Analysis">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">IEEE 1500 Wrapper Design & Test Time Reduction (Iyengar et al., IEEE TCAD 2002)</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Benchmark</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">TAM Width (w)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Pre-Wrapper Raw Cycles</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Post-Wrapper IEEE 1500 Cycles</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Cycles Saved</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Reduction %</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">529200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8497</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">520703</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">98.39</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">529200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7853</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">521347</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">98.52</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">529200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7574</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">521626</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">98.57</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">529200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7456</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">521744</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">98.59</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">529200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7418</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">521782</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">98.6</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">529200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7369</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">521831</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">98.61</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">529200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7328</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">521872</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">98.62</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4303200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">40084</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4263116</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">99.07</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4303200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">35028</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4268172</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">99.19</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4303200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">33261</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4269939</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">99.23</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4303200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">32399</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4270801</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">99.25</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4303200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">31900</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4271300</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">99.26</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4303200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">31602</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4271598</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">99.27</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4303200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">31434</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4271766</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">99.27</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="2D Scheduling Summary">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">2D Planar Multi-Seed Fair-Budget Statistical Summary (6 Algorithms, N=10 Seeds)</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mode</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Benchmark</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Algorithm</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">N Seeds</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Best (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Worst (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Median (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Std Dev (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Reduction vs Greedy (%)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Evals</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean CPU Runtime (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Worst-Case Power (W)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Worst-Case Peak Tj (C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Max TSV/TAM Used</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Constraint Status</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Greedy</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00042</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">ABC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">323000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">321600.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">321500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1173.79</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.279</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.04132</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Bat</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">323000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322350.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322750.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1001.39</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.047</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.04118</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Firefly</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">323000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322450.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">323000.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1039.5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.016</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0388</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">MACO</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320700.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">632.46</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.558</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.06623</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">H-MACO-FA</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.62</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.05833</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Greedy</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">420649</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">420649</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">420649.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">420649.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00283</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">47.8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">ABC</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417449</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">421997</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">418858.3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">418748.5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1270.57</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.426</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.7245</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">53.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Bat</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">415198</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">419748</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">416853.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">416373.5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1437.37</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.902</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.7462</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">56.35</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Firefly</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">416148</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">419199</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417758.1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417596.5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1137.98</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.687</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.6988</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">50.5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">MACO</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417998</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">429948</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">423923.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">423673.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3508.59</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">-0.778</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.86932</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">54.55</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">H-MACO-FA</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417048</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">424948</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">418878.3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">418323.5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2261.58</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.421</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">300.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.81311</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">51.85</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">N/A (2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="2D HIL Replay">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">2D Hardware-in-the-Loop (HIL) Physical Raspberry Pi 4 Model B Rev 1.4 Measurements</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mode</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Benchmark</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Algorithm</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Trials</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Is Physical</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Board Model</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">GPIO Backend</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Makespan (CC)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Total Task Cycles</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Scaled Makespan (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Expected Cumulative Sleep (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Wall Clock (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Std Wall Clock (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Client Roundtrip (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Jitter (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean Overhead vs Sleep (%)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">GPIO Events</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Artificial Bee Colony (ABC 2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Raspberry Pi 4 Model B Rev 1.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">RPi.GPIO</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">469500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.9615</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.4085</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.41613</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0002</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.47602</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00124</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.54</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">156</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2d</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Bat 2D Algorithm</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Raspberry Pi 4 Model B Rev 1.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">RPi.GPIO</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">415198</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1237796</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1.24559</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.71339</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.73803</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00026</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.80575</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0035</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.663</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">540</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

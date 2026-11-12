@@ -1,0 +1,13 @@
+Mode,Benchmark,Base Algorithm,Thermal Scaling Strategy,Makespan (CC),Peak Power (W),Peak Tj (C),Max TSV Used,Status
+fixed3d,d695,Artificial Bee Colony (ABC 3D),Unscaled Best Schedule,320500,21.0,39.81,16,Safe
+fixed3d,d695,Artificial Bee Colony (ABC 3D),RC-Estimator Frequency Scaled,320500,21.0,39.81,16,Safe
+fixed3d,d695,Artificial Bee Colony (ABC 3D),ML-Regressor Frequency Scaled,320500,21.0,39.81,16,Safe
+fixed3d,p22810,Bat Algorithm (Bat 3D),Unscaled Best Schedule,434398,45.75,56.82,24,Safe
+fixed3d,p22810,Bat Algorithm (Bat 3D),RC-Estimator Frequency Scaled,452142,42.53,56.82,24,Safe
+fixed3d,p22810,Bat Algorithm (Bat 3D),ML-Regressor Frequency Scaled,434398,45.75,56.82,24,Safe
+random3d,d695,Artificial Bee Colony (ABC 3D),Unscaled Best Schedule,320500,21.0,60.07,16,Safe
+random3d,d695,Artificial Bee Colony (ABC 3D),RC-Estimator Frequency Scaled,320500,21.0,60.07,16,Safe
+random3d,d695,Artificial Bee Colony (ABC 3D),ML-Regressor Frequency Scaled,320500,21.0,60.07,16,Safe
+random3d,p22810,Modified ACO (MACO 3D),Unscaled Best Schedule,416648,41.7,93.82,16,Safe
+random3d,p22810,Modified ACO (MACO 3D),RC-Estimator Frequency Scaled,416648,41.7,93.82,16,Safe
+random3d,p22810,Modified ACO (MACO 3D),ML-Regressor Frequency Scaled,486198,37.2,86.22,24,Safe

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="Header">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1F4E79" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="Title">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="13" ss:Color="#1F4E79" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="DataCell">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="10"/>
+  </Style>
+  <Style ss:ID="SafeStatus">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="10" ss:Color="#006100" ss:Bold="1"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="FIXED3D P22810">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">Live Simulation Run: FIXED3D - P22810</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Benchmark</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Algorithm</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Makespan (Cycles)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Peak Power (W)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Peak Tj (°C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Max TSV/TAM</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Runtime (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Constraint Status</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Greedy 3D Baseline</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">449348</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">41.7</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">69.5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0086</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Artificial Bee Colony (ABC 3D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">437447</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.55</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">83.6</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.8322</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Bat 3D Algorithm</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">437200</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.75</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">61.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.9258</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Firefly 3D Algorithm</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">435150</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">50.95</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">67.1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">5.3725</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Modified ACO (MACO 3D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">437847</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">51.85</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.7</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.966</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Firefly 3D Algorithm + Scaled</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">488020</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">49.01</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">67.1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">5.3745</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

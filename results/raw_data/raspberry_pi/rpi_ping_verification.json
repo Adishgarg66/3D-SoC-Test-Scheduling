@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "command": "ping",
+  "board_model": "Raspberry Pi 4 Model B Rev 1.4",
+  "gpio_backend": "RPi.GPIO",
+  "is_physical_hardware": true,
+  "hostname": "raspberrypi",
+  "os_release": "Debian GNU/Linux 13 (trixie)",
+  "kernel_release": "6.18.50+rpt-rpi-v8",
+  "architecture": "aarch64",
+  "clock_pin": 18,
+  "tam_pins": [
+    2,
+    3,
+    4,
+    14,
+    15,
+    17,
+    27,
+    22
+  ],
+  "python_version": "3.13.5"
+}

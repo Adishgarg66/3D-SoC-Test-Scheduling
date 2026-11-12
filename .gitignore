@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Test / Coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Matplotlib cache
+.matplotlib/
+/tmp/matplotlib_cache/
+
+# Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.log

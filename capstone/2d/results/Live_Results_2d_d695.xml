@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="Header">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1F4E79" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="Title">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="13" ss:Color="#1F4E79" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="DataCell">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="10"/>
+  </Style>
+  <Style ss:ID="SafeStatus">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="10" ss:Color="#006100" ss:Bold="1"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="2D D695">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">Live Simulation Run: 2D - D695</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Benchmark</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Algorithm</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Makespan (Cycles)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Peak Power (W)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Peak Tj (°C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Max TSV/TAM</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Runtime (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Constraint Status</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Greedy 2D Baseline</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0005</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Artificial Bee Colony (ABC 2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0495</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Bat 2D Algorithm</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0258</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Firefly 2D Algorithm</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">332000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0036</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Modified ACO (MACO 2D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.0424</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

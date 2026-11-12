@@ -1,0 +1,7 @@
+Mode,Benchmark,Algorithm,Host CPU (s),Scaled Makespan (s),Expected Sleep (s),RPi Wall Clock (s),Overhead vs Sleep (%)
+2d,d695,Artificial Bee Colony (ABC 2D),0.04075,0.9615,1.4085,1.41613,0.54
+2d,p22810,Bat 2D Algorithm,0.72274,1.24559,3.71339,3.73803,0.663
+fixed3d,d695,Artificial Bee Colony (ABC 3D),0.18198,0.9615,1.4085,1.41606,0.54
+fixed3d,p22810,Bat Algorithm (Bat 3D),1.43867,1.30319,3.71339,3.73799,0.66
+random3d,d695,Artificial Bee Colony (ABC 3D),0.18378,0.9615,1.4085,1.41592,0.527
+random3d,p22810,Modified ACO (MACO 3D),1.58052,1.24994,3.71339,3.73831,0.67

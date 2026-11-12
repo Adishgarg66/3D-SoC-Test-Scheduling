@@ -1,0 +1,9 @@
+Live Simulation Run: FIXED3D - D695
+
+Benchmark,Algorithm,Makespan (Cycles),Peak Power (W),Peak Tj (°C),Max TSV/TAM,Runtime (s),Constraint Status
+d695,Greedy 3D Baseline,322500,22.2,48.5,16,0.0046,Safe
+d695,Artificial Bee Colony (ABC 3D),320500,21.0,39.8,16,0.0925,Safe
+d695,Bat 3D Algorithm,330000,22.2,48.5,16,0.0786,Safe
+d695,Firefly 3D Algorithm,320500,22.2,48.5,16,0.1191,Safe
+d695,Modified ACO (MACO 3D),322500,22.2,48.5,16,0.1302,Safe
+d695,Artificial Bee Colony (ABC 3D) + Scaled,320500,21.0,39.8,16,0.0945,Safe

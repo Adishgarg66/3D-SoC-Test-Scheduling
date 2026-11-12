@@ -1,0 +1,13 @@
+# Core numerical & scientific computation
+numpy>=1.26.0
+
+# Visualization & charting
+matplotlib>=3.8.0
+pillow>=10.0.0
+
+# Dynamic Excel (.xlsx) OpenXML workbook generation
+openpyxl>=3.1.0
+
+# Automated testing suite
+pytest>=8.0.0
+pytest-cov>=4.1.0

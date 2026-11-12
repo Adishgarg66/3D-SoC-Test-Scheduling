@@ -1,0 +1,9 @@
+Live Simulation Run: FIXED3D - P22810
+
+Benchmark,Algorithm,Makespan (Cycles),Peak Power (W),Peak Tj (°C),Max TSV/TAM,Runtime (s),Constraint Status
+p22810,Greedy 3D Baseline,449348,41.7,69.5,24,0.0086,Safe
+p22810,Artificial Bee Colony (ABC 3D),437447,45.55,83.6,24,0.8322,Safe
+p22810,Bat 3D Algorithm,437200,45.75,61.4,24,0.9258,Safe
+p22810,Firefly 3D Algorithm,435150,50.95,67.1,24,5.3725,Safe
+p22810,Modified ACO (MACO 3D),437847,51.85,68.7,24,0.966,Safe
+p22810,Firefly 3D Algorithm + Scaled,488020,49.01,67.1,24,5.3745,Safe

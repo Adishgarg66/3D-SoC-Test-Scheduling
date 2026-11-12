@@ -1,0 +1,8 @@
+Live Simulation Run: 2D - P22810
+
+Benchmark,Algorithm,Makespan (Cycles),Peak Power (W),Peak Tj (°C),Max TSV/TAM,Runtime (s),Constraint Status
+p22810,Greedy 2D Baseline,420649,47.8,0.0,32,0.0029,Safe
+p22810,Artificial Bee Colony (ABC 2D),417100,50.5,0.0,32,1.1844,Safe
+p22810,Bat 2D Algorithm,416748,54.55,0.0,32,0.573,Safe
+p22810,Firefly 2D Algorithm,421599,46.0,0.0,32,0.0774,Safe
+p22810,Modified ACO (MACO 2D),421146,54.55,0.0,32,0.5564,Safe

@@ -1,0 +1,5 @@
+Fixed 3D Physical Raspberry Pi 4 Model B Rev 1.4 HIL Summary
+
+Mode,Benchmark,Algorithm,Trials,Is Physical,Board Model,GPIO Backend,Makespan (CC),Total Task Cycles,Scaled Makespan (s),Expected Cumulative Sleep (s),Mean Wall Clock (s),Std Wall Clock (s),Mean Client Roundtrip (s),Mean Jitter (s),Mean Overhead vs Sleep (%),GPIO Events
+fixed3d,d695,Artificial Bee Colony (ABC 3D),3,True,Raspberry Pi 4 Model B Rev 1.4,RPi.GPIO,320500,469500,0.9615,1.4085,1.41606,0.00015,1.48349,0.00123,0.54,156
+fixed3d,p22810,Bat Algorithm (Bat 3D),3,True,Raspberry Pi 4 Model B Rev 1.4,RPi.GPIO,434398,1237796,1.30319,3.71339,3.73799,8e-05,3.78951,0.00348,0.66,540

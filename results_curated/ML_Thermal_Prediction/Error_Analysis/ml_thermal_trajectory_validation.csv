@@ -1,0 +1,5 @@
+RC Architecture,Validation Set,Model,Steps Evaluated,MAE (C),RMSE (C),Max Error (C),R2,Reference Data Source
+Random 3D RC,"All Trajectory Steps (seeds=512,777,1024)",Polynomial Ridge Regressor (d=2),120,0.9459,1.223,3.6545,0.991259,Independent 3D RC Schedule Trajectory Simulation
+Random 3D RC,Strictly Unseen vs Train Set,Polynomial Ridge Regressor (d=2),90,1.0709,1.3571,3.6545,0.987863,Independent 3D RC Schedule Trajectory Simulation (0% overlap with training set)
+Fixed 3D RC,"All Trajectory Steps (seeds=512,777,1024)",Polynomial Ridge Regressor (d=2),120,0.7684,0.9459,2.7452,0.990542,Independent 3D RC Schedule Trajectory Simulation
+Fixed 3D RC,Strictly Unseen vs Train Set,Polynomial Ridge Regressor (d=2),85,0.8506,1.0421,2.7452,0.988331,Independent 3D RC Schedule Trajectory Simulation (0% overlap with training set)
